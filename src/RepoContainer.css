@@ -1,0 +1,20 @@
+.repo_filters{
+    background-color: black;
+    padding:10px 0px 20px 20px;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.componentContainer{
+    border: solid #f9fb18 5px;
+    border-radius: 8px;
+    padding:15px;
+    margin: 10px;
+}
+
+.repo_componentHeader{
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}

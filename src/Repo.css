@@ -1,0 +1,42 @@
+.repositoryItem_repositoryItem{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border:solid 1px white;
+    border-radius: 5px;
+    margin: 8px 0px 8px 0px;
+    background:grey;
+    padding:8px;
+    text-align: left;
+}
+
+.repositoryItem_stars{
+    margin: 0px 10px 0px 0px;
+}
+
+.repositoryItem_selectedStar{
+    color:#f9fb18;
+}
+
+.repositoryItem_hollowStar{
+    color:white;
+}
+
+.repositoryItem_linkColor{
+    color: #61dafb;
+}  
+
+.repositoryItem_starTitleAndLanguage{
+    flex-basis: 25%;
+    margin:0px 10px 0px 0px;
+}
+
+.repositoryItem_description{
+    flex-basis:65%;
+    margin:0px 10px 0px 0px;
+}
+
+.repositoryItem_starCount{
+    flex-basis: 10%;
+    margin:0px 10px 0px 0px;
+}

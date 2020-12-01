@@ -1,0 +1,5 @@
+/* resets chrome's default list styling */
+.repo_list{
+    list-style: none;
+    padding:0px;
+}
