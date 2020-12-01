@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sa_github_stars_challenge/static/css/main.6bfe9498.chunk.css",
+    "main.js": "/sa_github_stars_challenge/static/js/main.61fc9db0.chunk.js",
+    "main.js.map": "/sa_github_stars_challenge/static/js/main.61fc9db0.chunk.js.map",
+    "runtime-main.js": "/sa_github_stars_challenge/static/js/runtime-main.21e39456.js",
+    "runtime-main.js.map": "/sa_github_stars_challenge/static/js/runtime-main.21e39456.js.map",
+    "static/js/2.2f06e909.chunk.js": "/sa_github_stars_challenge/static/js/2.2f06e909.chunk.js",
+    "static/js/2.2f06e909.chunk.js.map": "/sa_github_stars_challenge/static/js/2.2f06e909.chunk.js.map",
+    "static/js/3.f2bab9f2.chunk.js": "/sa_github_stars_challenge/static/js/3.f2bab9f2.chunk.js",
+    "static/js/3.f2bab9f2.chunk.js.map": "/sa_github_stars_challenge/static/js/3.f2bab9f2.chunk.js.map",
+    "index.html": "/sa_github_stars_challenge/index.html",
+    "static/css/main.6bfe9498.chunk.css.map": "/sa_github_stars_challenge/static/css/main.6bfe9498.chunk.css.map",
+    "static/js/2.2f06e909.chunk.js.LICENSE.txt": "/sa_github_stars_challenge/static/js/2.2f06e909.chunk.js.LICENSE.txt",
+    "static/media/starWarsLogo.97d3c6e9.png": "/sa_github_stars_challenge/static/media/starWarsLogo.97d3c6e9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21e39456.js",
+    "static/js/2.2f06e909.chunk.js",
+    "static/css/main.6bfe9498.chunk.css",
+    "static/js/main.61fc9db0.chunk.js"
+  ]
+}
