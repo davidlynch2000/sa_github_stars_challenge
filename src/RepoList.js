@@ -31,7 +31,7 @@ const RepoList = ({ selectedLanguage, onlyStarredRepos }) => {
             starredRepos[idx] = {
                 ...starredRepos[idx],
                 starred: false,
-                starCount: starredRepos[idx].starCount--,
+                starCount: starredRepos[idx].starCount - 1,
             };
             return starredRepos;
         });
