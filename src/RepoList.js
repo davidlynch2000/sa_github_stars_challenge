@@ -5,7 +5,7 @@ import './RepoList.css';
 
 const RepoList = ({ selectedLanguage, onlyStarredRepos }) => {
     const [githubWeeklyTrendingRepos, setGithubWeeklyTrendingRepos] = useState(
-        JSON.parse(localStorage.getItem("githubWeeklyTrendingRepos"))
+        JSON.parse(sessionStorage.getItem("githubWeeklyTrendingRepos"))
         || []
     );
 
@@ -17,7 +17,7 @@ const RepoList = ({ selectedLanguage, onlyStarredRepos }) => {
             starredRepos[idx] = {
                 ...starredRepos[idx],
                 starred: true,
-                starCount: starredRepos[idx].starCount++,
+                starCount: starredRepos[idx].starCount + 1,
             };
             return starredRepos;
         });
