@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sa_github_stars_challenge/static/css/main.6bfe9498.chunk.css",
-    "main.js": "/sa_github_stars_challenge/static/js/main.d8b72629.chunk.js",
-    "main.js.map": "/sa_github_stars_challenge/static/js/main.d8b72629.chunk.js.map",
+    "main.js": "/sa_github_stars_challenge/static/js/main.c600217a.chunk.js",
+    "main.js.map": "/sa_github_stars_challenge/static/js/main.c600217a.chunk.js.map",
     "runtime-main.js": "/sa_github_stars_challenge/static/js/runtime-main.21e39456.js",
     "runtime-main.js.map": "/sa_github_stars_challenge/static/js/runtime-main.21e39456.js.map",
     "static/js/2.2f06e909.chunk.js": "/sa_github_stars_challenge/static/js/2.2f06e909.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.21e39456.js",
     "static/js/2.2f06e909.chunk.js",
     "static/css/main.6bfe9498.chunk.css",
-    "static/js/main.d8b72629.chunk.js"
+    "static/js/main.c600217a.chunk.js"
   ]
 }
