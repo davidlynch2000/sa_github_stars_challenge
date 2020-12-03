@@ -7,10 +7,16 @@ const RepoContainer = () => {
     const [selectedLanguage, setSelectedLanguage] = useState('');
     const [onlyStarredRepos, setOnlyStarredRepos] = useState(false);
     const [allLanguages, setAllLanguages] = useState([]);
+    const WEEK_IN_MILLISECONDS = 7*24*60*60*1000;
 
     useEffect(() => {
         const fetchTheRepos = async () => {
-            let data = await fetch('https://api.github.com/search/repositories?q=created:%3E2017-01-10&sort=stars&order=desc');
+            let curDate = new Date();
+            let oneWeekAgo = new Date(curDate - WEEK_IN_MILLISECONDS);
+            // In javascript, months are 0 indexed, so we have to add one to the return
+            let data = await fetch(
+                `https://api.github.com/search/repositories?q=created:%3A>%3D${oneWeekAgo.getFullYear()}-${oneWeekAgo.getMonth()+1}-${oneWeekAgo.getDate()}&sort=stars&order=desc`
+            );
             let json = await data.json();
 
             // gets an array of all unique languages by using the filter method to eliminate the null values, 
