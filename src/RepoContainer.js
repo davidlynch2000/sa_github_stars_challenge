@@ -11,11 +11,15 @@ const RepoContainer = () => {
     useEffect(() => {
         const fetchTheRepos = async () => {
             const WEEK_IN_MILLISECONDS = 7 * 24 * 60 * 60 * 1000;
+            
             let curDate = new Date();
             let oneWeekAgo = new Date(curDate - WEEK_IN_MILLISECONDS);
+            let curDateWithTwoDigits = ('0' + oneWeekAgo.getDate().toString()).slice(-2);
+            let curMonthWithTwoDigits = (('0' + (oneWeekAgo.getMonth()+1).toString()).slice(-2));
+
             // In javascript, months are 0 indexed, so we have to add one to the return
             let data = await fetch(
-                `https://api.github.com/search/repositories?q=created:%3A>%3D${oneWeekAgo.getFullYear()}-${oneWeekAgo.getMonth() + 1}-${oneWeekAgo.getDate()}&sort=stars&order=desc`
+                `https://api.github.com/search/repositories?q=created:%3A>%3D${oneWeekAgo.getFullYear()}-${curMonthWithTwoDigits}-${curDateWithTwoDigits}&sort=stars&order=desc`
             );
             let json = await data.json();
 
